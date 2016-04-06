@@ -159,9 +159,10 @@ Sends every 10ms:
     * `B2-B7` - 0
 * `C` - 0
 * `D` - 0
-* `E` - Unknown
+* `E` - Throttle Position (position of throttle, not gas pedal)
 * `F` - Unknown
-* `G` - Unknown
+* `G` - Bitfield
+    * `G6` - Brake Light Status (0 = off, 1 = on)
 * `H` - Unknown - higher when engine accelerating, cuts out when lifting
 
 
